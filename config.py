@@ -16,7 +16,8 @@ custom_stop_words = {"br", "b", "work", "skills", "team", "development", "та",
                      'principles', 'maintain', 'products', 'functional', 'cross', 'intermediate',
                      'one', 'g', 'vision', 'senior', 'client'}
 
-technologies = {"python", "git", "sql", "rest", "api", "docker", "aws", "linux", "django",
-                "postgres", "artifical intelligence", "js", "machine learning", "react", "oop"
+technologies = ["python", "git", "sql", "rest", "api", "docker", "aws", "linux", "django",
+                "postgres", "ai", "js", "machine learning", "react", "oop",
                 "flask", "nosql", "networking", "fullstack", "microservice", "mongodb",
-                "html", "css", "algorithms", "drf", "fastapi", "asyncio", "graphsql", "cloud"}
+                "html", "css", "algorithms", "drf", "fastapi", "asyncio", "graphsql", "cloud",
+                "selenium", "scrapy"]
