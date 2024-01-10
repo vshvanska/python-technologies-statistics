@@ -28,6 +28,3 @@ To run the project locally, follow these steps:
 After running the project, you will find the extracted data in the data.csv file.
 
 Run main.ipynb to analyse data.
-
-
-
