@@ -45,5 +45,3 @@ Run main.ipynb to analyse data.
 
 In the archive folder you can find previous results for comparing statistics.
 Data is automatically saved to this folder
-
-
