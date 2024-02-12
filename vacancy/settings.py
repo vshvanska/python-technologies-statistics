@@ -1,5 +1,3 @@
-# Scrapy settings for vacancy project
-
 BOT_NAME = "vacancy"
 
 SPIDER_MODULES = ["vacancy.spiders"]
