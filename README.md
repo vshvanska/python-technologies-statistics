@@ -6,13 +6,13 @@ Features
 - Web Scraping: Utilizes Scrapy to crawl and extract relevant information from job postings.
 
 - Data Analysis: Provides statistical analysis on the collected data, including information on vacancies, views, and reviews.
-
 - Experience Requirement: Analyzes and presents insights into the experience required for Python developer positions.
-
+![experience](archive/experience/experience2024-01-10.png)
 - Location Insights: Offers statistics and trends related to the geographical locations of job vacancies.
-
+![office/remote](archive/location/office-remote2024-01-10.png)
+![country](archive/location/country2024-01-10.png)
 - Technology Trends: Identifies and presents the most commonly mentioned technologies in job postings.
-
+![requirements](archive/requirements/common2024-01-10.png)
 - Relationships: Explores correlations between reviews, required experience, and specific technologies.
 
 # Installation
