@@ -6,25 +6,42 @@ Features
 - Web Scraping: Utilizes Scrapy to crawl and extract relevant information from job postings.
 
 - Data Analysis: Provides statistical analysis on the collected data, including information on vacancies, views, and reviews.
-
 - Experience Requirement: Analyzes and presents insights into the experience required for Python developer positions.
-
+![experience](archive/experience/experience2024-01-10.png)
 - Location Insights: Offers statistics and trends related to the geographical locations of job vacancies.
-
+![office/remote](archive/location/office-remote2024-01-10.png)
+![country](archive/location/country2024-01-10.png)
 - Technology Trends: Identifies and presents the most commonly mentioned technologies in job postings.
-
+![requirements](archive/requirements/common2024-01-10.png)
 - Relationships: Explores correlations between reviews, required experience, and specific technologies.
 
 # Installation
+1. Fork the repo (GitHub repository)
+2. Clone the forked repo
+    ```
+    git clone the-link-from-your-forked-repo
+    ```
+    - You can get the link by clicking the `Clone or download` button in your repo
+3. Open the project folder in your IDE
+4. Open a terminal in the project folder
+
+5. If you are using PyCharm - it may propose you to automatically create venv for your project 
+    and install requirements in it, but if not:
+    ```
+    python -m venv venv
+    venv\Scripts\activate (on Windows)
+    source venv/bin/activate (on macOS)
+    pip install -r requirements.txt
+    ```
+
 To run the project locally, follow these steps:
-
-- Clone the repository
-- Install the required dependencies:
-  - pip install -r requirements.txt
 - Run scrapy:
-  - scrapy crawl vacancies -о data.csv
-
-# Usage
+    ```
+    scrapy crawl vacancies -o data.csv
+    ```
 After running the project, you will find the extracted data in the data.csv file.
 
 Run main.ipynb to analyse data.
+
+In the archive folder you can find previous results for comparing statistics.
+Data is automatically saved to this folder
